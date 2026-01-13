@@ -11,7 +11,6 @@ def main():
     allroadslist = allroadsdict['roads']
     print(allroadslist)
 
-    allroadslist = ['A3', 'A93']
 
     for roadid in allroadslist:
         r = requests.get(f"https://verkehr.autobahn.de/o/autobahn/{roadid}/services/roadworks")
