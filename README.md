@@ -11,7 +11,10 @@ In unserer Anwendung nutzen wir
 
 **Jonas Trenz (jtrenz):**
 
-- blal
+- API call setup (all important endpoints)
+- Ollama Embedding Model setup
+- Document indexing
+- Finish gradio UI
 
 **Denise Polinski:**
 
