@@ -15,6 +15,9 @@ In unserer Anwendung nutzen wir
 
 **Denise Polinski:**
 
-- hhs
+- project setup
+- conversion of existing code to jupyter notebook
+- conversion of loaded bundesdata from python objects (dict) to list of LangChain documents
+- initial gradio UI
 
 ## Installationsanleitung
