@@ -17,7 +17,7 @@ In unserer Anwendung nutzen wir
 
 - project setup
 - conversion of existing code to jupyter notebook
-- conversion of loaded bundesdata from phython object (dict) to list of LangChain documents
+- conversion of loaded bundesdata from python objects (dict) to list of LangChain documents
 - initial gradio UI
 
 ## Installationsanleitung
