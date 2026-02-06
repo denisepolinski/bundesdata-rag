@@ -1,11 +1,24 @@
 # BUNDESDATA-RAG
 
-**RAG-Pipeline für öffentliche Daten der Bundesbehörden**
+### RAG-Pipeline für öffentliche Daten der Bundesbehörden
 
-Nutzung von APIs von bund.dev (z.B. Autobahnmeldungen, NINA, Bundestag, DWD) zur Informationsaufbereitung und Abfrage
-mittels LLM.
+Dieses Projekt implementiert ein **Retrieval-Augmented Generation (RAG)**-System
+für **deutsche Autobahn-Bundesdaten**.  
+Die Daten werden von `verkehr.autobahn.de` bezogen, in einer Vektordatenbank
+gespeichert und über ein LLM (via Ollama) abfragbar gemacht.
 
-In unserer Anwendung nutzen wir
+Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
+
+> **_Hinweis_**
+>
+> Das LLM antwortet nur korrekt auf Fragen, die die im Kontext vorhandenen **englischen Begriffe** verwenden.
+> Verfügbare Themenbereiche sind:
+>
+> - roadworks
+> - parking lorry
+> - warning
+> - closure
+> - electric charging station
 
 ## Zuständigkeiten
 
@@ -24,3 +37,20 @@ In unserer Anwendung nutzen wir
 - initial gradio UI
 
 ## Installationsanleitung
+
+1. **Repository clonen**
+
+   ```bash
+   git clone <https://github.com/denisepolinski/bundesdata-rag>
+
+   cd bundesdata-rag
+
+   ```
+
+2. **Virtuelle Umgebung erstellen & Abhängigkeiten installieren**
+   ```bash
+   uv sync
+   uv run jupyter notebook
+   ```
+
+Nach Ausführen der letzten Zeile startet automatisch das Gradio UI. Die URL wird im Notebook ausgegeben.
