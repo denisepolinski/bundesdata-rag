@@ -4,7 +4,7 @@
 
 Dieses Projekt implementiert ein **Retrieval-Augmented Generation (RAG)**-System
 für **deutsche Autobahn-Bundesdaten**.  
-Die Daten werden von `verkehr.autobahn.de` bezogen, in einer Vektordatenbank
+Die Daten werden von `autobahn.api.bund.dev` bezogen, in einer Vektordatenbank
 gespeichert und über ein LLM (via Ollama) abfragbar gemacht.
 
 Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
