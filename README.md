@@ -38,6 +38,9 @@ Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
 
 ## Installationsanleitung
 
+**Voraussetzung:** da der Ollama-Server der Universität verwendet wird, muss Zugriff auf das Universitätsnetzwerk
+(entweder direkt über das Campusnetz oder via VPN) vorhanden sein.
+
 1. **Repository clonen**
 
    ```bash
