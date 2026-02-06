@@ -9,6 +9,17 @@ gespeichert und über ein LLM (via Ollama) abfragbar gemacht.
 
 Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
 
+> **_Hinweis_**
+>
+> Das LLM antwortet nur korrekt auf Fragen, die die im Kontext vorhandenen **englischen Begriffe** verwenden.
+> Verfügbare Themenbereiche sind:
+>
+> - roadworks
+> - parking lorry
+> - warning
+> - closure
+> - electric charging station
+
 ## Zuständigkeiten
 
 **Jonas Trenz (jtrenz):**
