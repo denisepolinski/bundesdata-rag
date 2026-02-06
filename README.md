@@ -11,7 +11,7 @@ Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
 
 > **_Hinweis_**
 >
-> Das LLM antwortet nur korrekt auf Fragen, die die im Kontext vorhandenen **englischen Begriffe** verwenden.
+> Das LLM antwortet öfter korrekt auf Fragen, die die im Kontext vorhandenen **englischen Begriffe** verwenden.
 > Verfügbare Themenbereiche sind:
 >
 > - roadworks
@@ -28,6 +28,7 @@ Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
 - Ollama Embedding Model setup
 - Document indexing
 - Finish gradio UI
+- Prompt refinement
 
 **Denise Polinski:**
 
@@ -35,6 +36,7 @@ Die gesamte Pipeline ist in einem **Jupyter Notebook (`.ipynb`)** umgesetzt.
 - conversion of existing code to jupyter notebook
 - conversion of loaded bundesdata from python objects (dict) to list of LangChain documents
 - initial gradio UI
+- comments
 
 ## Installationsanleitung
 
